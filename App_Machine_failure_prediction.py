@@ -61,11 +61,13 @@ if submit:
     preds = model.predict(xnew_pre)
     if preds[0]==1:
         op = 'Machine will fail'
-        st.subheader(op, key="styledtextfail")
+        st.markdown(f'<div class="styledtextfail"><h3>{op}</h3></div>', unsafe_allow_html=True)
+      
         
     else:
         op = 'Machine will not fail'
-        st.subheader(op, key="styledtextnotfail")
+        st.markdown(f'<div class="styledtextnotfail"><h3>{op}</h3></div>', unsafe_allow_html=True)
+
        
     
 
