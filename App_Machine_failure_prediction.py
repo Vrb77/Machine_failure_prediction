@@ -2,6 +2,11 @@ import streamlit as st
 import joblib
 import pandas as pd
 import pathlib
+from PIL import Image
+
+# Load image from local path
+img = Image.open('Templates/ai-equipment-failure-prediction-image.png')
+st.image(img, caption='My Thumbnail', width=200) 
 
 # Function to load CSS from the 'assets' folder
 def load_css(file_path):
