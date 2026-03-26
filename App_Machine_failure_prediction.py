@@ -5,9 +5,11 @@ import pathlib
 from PIL import Image
 from pathlib import Path
 image = Image.open('Templates/ai-equipment-failure-prediction-image.png')
-icon = Image.open(Path(__file__).parent / "Templates" / "ai-equipment-failure-prediction-image.png")
-st.set_page_config(page_icon=icon)
 st.image(image, caption='machine image')
+st.set_page_config(
+    page_title="Machine Failure Prediction",
+    page_icon="🤖",
+)
 
 # Function to load CSS from the 'assets' folder
 def load_css(file_path):
