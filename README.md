@@ -6,4 +6,6 @@
 input parameters.
 <br/><br/>
 • Live demo : https://machine-failure-prediction-project.streamlit.app/ <br/><br/>
+
 [Click Here](https://machine-failure-prediction-project.streamlit.app/)
+
