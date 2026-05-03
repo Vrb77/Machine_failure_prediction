@@ -5,5 +5,5 @@
 • Deployed an interactive prediction interface using Streamlit, enabling real-time failure risk assessment with user
 input parameters.
 <br/><br/>
-• Live demo : https://machine-failure-prediction-project.streamlit.app/  <br/><br/>
+• Live demo : https://machine-failure-prediction-project.streamlit.app/ <br/><br/>
 [Click Here](https://machine-failure-prediction-project.streamlit.app/)
